@@ -1,0 +1,72 @@
+{
+    "card": [
+        {
+            "id": 1,
+            "text": "Codic – HTML Starter Template for Developer...",
+            "smtext": "Starter Templates",
+            "img": "/img/01_CodicHTML-590x295.jpg"
+        },
+        {
+            "id": 2,
+            "text": "Sely – Personal Resume vCard React JS Template...",
+            "smtext": "React JS Templates",
+            "img": "/img/02_SelyREACT_JS-590x295.jpg"
+        },
+        {
+            "id": 3,
+            "text": "Sely – Personal Resume vCard Vue JS Template...",
+            "smtext": "Vue JS Templates",
+            "img": "img/08_InetFIGMA-590x295.jpg"
+        },
+        {
+            "id": 4,
+            "text": "Sely – Personal Resume vCard React JS Template...",
+            "smtext": "Chop JS Templates",
+            "img": "/img/05_ChopWP-590x295.jpg"
+        }
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "name": "Jamil",
+            "txt": "I am building my own website with the oxer theme, and it is amazing The design is nice, well-built, and easy to work through. And if you have any questions or issue, thesupport team is very helpful and fast in resolving it."
+        },
+        {
+            "id": 2,
+            "name": "Danai",
+            "txt": "I am building my own website with the oxer theme, and it is amazing. The design is nice, well-built, and easy to work through. And if you have any questions or issue, the support team is very helpful and fast in resolving it."
+        },
+        {
+            "id": 3,
+            "name": "Tim",
+            "txt": "I am building my own website with the oxer theme, and it is amazing. The design is nice,well-built, and easy to work through. And if you have any questions or issue, the support team is very helpful and fast in resolving it."
+        },
+        {
+            "id": 4,
+            "name": "Natalia",
+            "txt": "I am building my own website with the oxer theme, and it is amazing. The design is nice,well-built, and easy to work through. And if you have any questions or issue, the support team is very helpful and fast in resolving it."
+        }
+    ],
+    "price-card": [
+        {
+            "id": 1,
+            "title": "LOW PRICING",
+            "txt": "We are offering IT and advertising items for affordable and customer-friendly prices."
+        },
+        {
+            "id": 2,
+            "title": "LOW PRICING",
+            "txt": "We are offering IT and advertising items for affordable and customer-friendly prices."
+        },
+        {
+            "id": 3,
+            "title": "LOW PRICING",
+            "txt": "We are offering IT and advertising items for affordable and customer-friendly prices."
+        },
+        {
+            "id": 4,
+            "title": "LOW PRICING",
+            "txt": "We are offering IT and advertising items for affordable and customer-friendly prices."
+        }
+    ]
+}
