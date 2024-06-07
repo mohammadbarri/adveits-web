@@ -10,19 +10,19 @@ export default function SideBar({theme , template , code , plugin , design}) {
             <div className="p-4 mt-3 form-bg">
                 <span className="fw-bold fs-5">Categories</span>
                 <ul className="catergorie-menu">
-                    <li><Link className={`${theme}`} to="/theme">Themes
+                    <li><a className={`${theme}`} href="/theme">Themes
 
-                    </Link></li>
-                    <li><Link className={`${template}`} to="/template">Templates
+                    </a></li>
+                    <li><a className={`${template}`} href="/template">Templates
 
-                    </Link></li>
-                    <li><Link className={`${design}`} to="/design">UI Design</Link></li>
-                    <li><Link className={`${plugin}`} to="/plugin">Plugins
+                    </a></li>
+                    <li><a className={`${design}`} href="/design">UI Design</a></li>
+                    <li><a className={`${plugin}`} href="/plugin">Plugins
 
-                    </Link></li>
-                    <li><Link className={`${code}`} to="/code">Code
+                    </a></li>
+                    <li><a className={`${code}`} href="/code">Code
 
-                    </Link>
+                    </a>
                     </li>
                 </ul>
             </div>
@@ -53,10 +53,10 @@ export default function SideBar({theme , template , code , plugin , design}) {
             <div className="p-4 mt-5 form-bg">
                 <span className="fw-bold fs-5">Compatible With</span>
                 <ul className="catergorie-menu">
-                    <li><Link >Bootstrap 4.x (5)</Link></li>
-                    <li><Link >Elementor (5)</Link></li>
-                    <li><Link >Elementor Pro (5)</Link></li>
-                    <li><Link >WPML (5)</Link></li>
+                    <li><a >Bootstrap 4.x (5)</a></li>
+                    <li><a >Elementor (5)</a></li>
+                    <li><a >Elementor Pro (5)</a></li>
+                    <li><a >WPML (5)</a></li>
                 </ul>
             </div>
         </section>

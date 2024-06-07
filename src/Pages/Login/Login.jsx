@@ -41,8 +41,8 @@ export default function Login() {
                 <section id='sec-body' className='mx-sm-5 mx-3 my-5'>
                     <div className="dir-menu">
                         <h1 className="display-4 fw-bolder mb-4">My Acount</h1>
-                        <Link className="me-1" to="/">Home</Link> /
-                        <Link className="ms-1 text-dark" to="/my-acount">My Acount</Link>
+                        <a className="me-1" href="/">Home</a> /
+                        <a className="ms-1 text-dark" href="/my-acount">My Acount</a>
                     </div>
                     <br /><br />
                     <div className='row mt-5'>

@@ -28,8 +28,8 @@ export default function CodeBody() {
                 <section id="section-body container-fluid" className="mx-sm-5 mx-3">
                     <div className="dir-menu">
                         <h1 className="display-4 fw-bolder mb-4">Code</h1>
-                        <Link className="me-1" to="/">Home</Link> /
-                        <Link className="ms-1 text-dark" to="/code">Code</Link>
+                        <a className="me-1" href="/">Home</a> /
+                        <a className="ms-1 text-dark" href="/code">Code</a>
                     </div>
                     <br /><br /><br /><br />
                     <section className="row">

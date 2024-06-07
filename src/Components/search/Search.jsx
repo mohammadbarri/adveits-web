@@ -53,10 +53,10 @@ export default function Search() {
             </form>
 
             <div className={`list-group text-start pt-2`}>
-                <small><Link key={data.card[0].id} to={`/cart/${data.card[0].id}`} className={`list-group-item d-block list-group-item-action border-0 ${d1}`}>{data.card[0].smtext}</Link></small>
-                <small><Link key={data.card[1].id} to={`/cart/${data.card[1].id}`} className={`list-group-item d-block list-group-item-action border-0 ${d2}`}>{data.card[1].smtext}</Link></small>
-                <small><Link key={data.card[2].id} to={`/cart/${data.card[2].id}`} className={`list-group-item d-block list-group-item-action border-0 ${d3}`}>{data.card[2].smtext}</Link></small>
-                <small><Link key={data.card[3].id} to={`/cart/${data.card[3].id}`} className={`list-group-item d-block list-group-item-action border-0 ${d4}`}>{data.card[3].smtext}</Link></small>
+                <small><a key={data.card[0].id} href={`/cart/${data.card[0].id}`} className={`list-group-item d-block list-group-item-action border-0 ${d1}`}>{data.card[0].smtext}</a></small>
+                <small><a key={data.card[1].id} href={`/cart/${data.card[1].id}`} className={`list-group-item d-block list-group-item-action border-0 ${d2}`}>{data.card[1].smtext}</a></small>
+                <small><a key={data.card[2].id} href={`/cart/${data.card[2].id}`} className={`list-group-item d-block list-group-item-action border-0 ${d3}`}>{data.card[2].smtext}</a></small>
+                <small><a key={data.card[3].id} href={`/cart/${data.card[3].id}`} className={`list-group-item d-block list-group-item-action border-0 ${d4}`}>{data.card[3].smtext}</a></small>
             </div>
 
 

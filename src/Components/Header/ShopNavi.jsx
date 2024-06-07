@@ -5,7 +5,7 @@ import { useAuthState } from '../../Context/auth-context'
 export default function ShopNavi({ cart }) {
   return (
     <li className="ps-0 position-relative">
-      <Link className={`${cart}`} to="/cart">
+      <a className={`${cart}`} href="/cart">
         <i className="fa-solid fa-cart-shopping">
           <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16"
             viewBox="0 0 576 512">
@@ -14,7 +14,7 @@ export default function ShopNavi({ cart }) {
           </svg>
         </i>
         <span className='bg-khas rounded-pill badge badge-po'>{'shop'}</span>
-      </Link>
+      </a>
     </li>
   )
 }

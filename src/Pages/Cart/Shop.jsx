@@ -5,6 +5,7 @@ import { useAuthDispatch, useAuthState } from '../../Context/auth-context'
 import axios from 'axios'
 import Footer from '../../Components/Footer'
 import ShopCard from './ShopCard'
+import Spinner from "../../Components/Spinner"
 
 
 export default function Shop() {
@@ -33,7 +34,7 @@ export default function Shop() {
 
     const card1 = data ? <>
         <ShopCard id={id} smtext={data.smtext} largeText={data.largeText} text={data.text} img={data.img} />
-        <Link onClick={handleBuy} className="btn text-light border-0 bg-dark px-3 p-3" to="/template">Buy it </Link>
+        <a onClick={handleBuy} className="btn text-light border-0 bg-dark px-3 p-3" href="/template">Buy it </a>
     </> : null
 
 
@@ -47,20 +48,21 @@ export default function Shop() {
             <section id='sec-body' className='mx-sm-5 mx-3 my-5'>
                 <div className="dir-menu">
                     <h1 className="display-4 fw-bolder mb-4">Cart</h1>
-                    <Link className="me-1" to="/">Home</Link> /
-                    <Link className="ms-1 text-dark" to="/cart">Cart</Link>
+                    <a className="me-1" href="/">Home</a> /
+                    <a className="ms-1 text-dark" href="/cart">Cart</a>
                 </div>
 
                 <br /><br /><br />
                 {id ?
-                    card1
+                    data ? card1 : <Spinner />
 
                     : <>
+                    
                         <div className="alert alert-success text-dark" role="alert">
                             Your cart is currently empty.
                         </div>
                         <br />
-                        <Link className="btn text-light border-0 bg-dark px-3 p-3" to="/template">Return to Shop</Link></>
+                        <a className="btn text-light border-0 bg-dark px-3 p-3" href="/template">Return href Shop</a></>
                 }
             </section>
             <Footer />

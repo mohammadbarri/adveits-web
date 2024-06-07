@@ -16,6 +16,7 @@ export default function HomeBody() {
     const [CardPrice1, setCardPrice] = useState(null)
 
     useEffect(() => {
+        window.scrollTo(0,0)
         axios.get("https://my-json-server.typicode.com/mohammadbarri/adveits-db/card").then(card => setCardProduct(card.data));
         axios.get('https://my-json-server.typicode.com/mohammadbarri/adveits-db/price-card').then(card => setCardPrice(card.data))
 
@@ -45,7 +46,7 @@ export default function HomeBody() {
                     <section className="mx-sm-5 mx-3">
                         <h1 className="fw-bolder">New Releases</h1>
                         <p>Themes, Templates, Wireframes, Design, Plugins.</p>
-                        <p className="text-end fw-bolder mt-5"><Link to="/theme" className="text-link">View all</Link></p>
+                        <p className="text-end fw-bolder mt-5"><a href="/theme" className="text-link">View all</a></p>
                         <br />
                         <div className="row mb-5 mt-1">
                             {card1}

@@ -8,8 +8,8 @@ export default function ShopCard({ img, text, smtext, id, largeText, d }) {
                 <div style={{ width: '24rem', margin: '0 auto' }} id={id} className="card shadow-lg border-0 w-100 khas1" >
                     <img src={img} className="card-img-top w-100" alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title fw-bolder"><Link className="title-link" to={`/cart/${id}`}>{text}</Link></h5>
-                        <p className="card-text"><Link to={`/cart/${id}`} className="card-link text-secondary">{smtext}</Link></p>
+                        <h5 className="card-title fw-bolder"><a className="title-link" href={`/cart/${id}`}>{text}</a></h5>
+                        <p className="card-text"><a href={`/cart/${id}`} className="card-link text-secondary">{smtext}</a></p>
                         <br />
                         <p className='card-text'>{largeText}</p>
                         <span><sup className="fw-bold fs-6">$</sup><span className="fw-bold fs-4">27</span></span>
