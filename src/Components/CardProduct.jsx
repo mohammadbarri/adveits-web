@@ -38,7 +38,7 @@ export default function CardProduct({ img, text, smtext, id }) {
                 <img src={img} className="card-img-top w-100" alt="..." />
                 <div className="card-body">
                     <h6 className="card-title fw-bolder"><a className="title-link" href={`/cart/${id}`}>{text}</a></h6>
-                    <p className="card-text"><a href={`/cart/${id}`} className="card-a text-secondary">{smtext}</a></p>
+                    <p className="card-text"><a href={`/cart/${id}`} className="card-link text-secondary">{smtext}</a></p>
                     <br />
                     <hr />
                     <span><sup className="fw-bold fs-6">$</sup><span className="fw-bold fs-4">27</span></span>
