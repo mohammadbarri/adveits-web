@@ -138,7 +138,7 @@ export default function Footer() {
                     <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                         <p className="text-secondary fw-bold">© 2023 Adveits Store. All Rights Reserved.</p>
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-12 col-12"></div>
+                    <div className="col-lg-4 col-md-6 col-sm-12 col-12 text-light fw-bold"><p>Created by  <span className='color-spe'> Mohammad Hossein Barri</span></p></div>
                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 svg-icon">
                         <span className="text-light fw-bold">Secure & Safe Payments: </span>
                         <a href="#">
