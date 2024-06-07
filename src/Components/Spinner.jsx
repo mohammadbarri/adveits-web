@@ -5,7 +5,6 @@ import { TailSpin } from 'react-loader-spinner'
 function Spinner() {
     return (
         <>
-            <br />
             <div className='flexItem'>
 
                 <TailSpin

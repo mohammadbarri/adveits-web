@@ -5,7 +5,6 @@ import { useAuthDispatch, useAuthState } from '../../Context/auth-context'
 import axios from 'axios'
 import Footer from '../../Components/Footer'
 import ShopCard from './ShopCard'
-import Spinner from "../../Components/Spinner"
 
 
 export default function Shop() {
@@ -54,10 +53,9 @@ export default function Shop() {
 
                 <br /><br /><br />
                 {id ?
-                    data ? card1 : <Spinner />
+                    card1
 
                     : <>
-                    
                         <div className="alert alert-success text-dark" role="alert">
                             Your cart is currently empty.
                         </div>
