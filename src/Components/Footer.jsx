@@ -11,35 +11,35 @@ export default function Footer() {
                             <ul className="footer-menu">
                                 <li className="fw-bolder fs-5">Company</li>
                                 <li><a href="/about">About us</a></li>
-                                <li><a >Terms&Conditions</a></li>
-                                <li><a >Privacy Policy</a></li>
-                                <li><a >Contacts</a></li>
-                                <li><a >Newsletter</a></li>
-                                <li><a >Services</a></li>
-                                <li><a >Career</a></li>
+                                <li><a href="#">Terms&Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Contacts</a></li>
+                                <li><a href="#">Newsletter</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Career</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-2 col-md-6 col-sm-6 col-6">
                             <ul className="footer-menu">
                                 <li className="fw-bolder fs-5">Customer Service</li>
-                                <li><a >Support</a></li>
-                                <li><a >FAQs</a></li>
-                                <li><a >Payment Policy</a></li>
-                                <li><a >Licenses</a></li>
-                                <li><a >Refund Policy</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Payment Policy</a></li>
+                                <li><a href="#">Licenses</a></li>
+                                <li><a href="#">Refund Policy</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-2 col-md-6 col-sm-6 col-6">
                             <ul className="footer-menu">
                                 <li className="fw-bolder fs-5">Partnership</li>
-                                <li><a >Our Partners</a></li>
-                                <li><a >Affiliate Program</a></li>
+                                <li><a href="#">Our Partners</a></li>
+                                <li><a href="#">Affiliate Program</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-2 col-md-6 col-sm-6 col-6">
                             <ul className="footer-menu">
                                 <li className="fw-bolder fs-5">Resources</li>
-                                <li><a >Blog</a></li>
+                                <li><a href="#">Blog</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-2 col-md-6 col-sm-6 col-6">
@@ -48,15 +48,15 @@ export default function Footer() {
                                 <li>Adveitas, UAB (Ltd)</li>
                                 <li>Vilkpedes g. 20A, Vilnius,</li>
                                 <li>Lithuania</li>
-                                <li><a >test@adveits.com</a></li>
+                                <li><a href="#">test@adveits.com</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-6 col-6 ps-0">
                             <ul className="svg-icon2 footer-menu">
-                                <li className="fw-bolder fs-5"><a className='color-ff' >Read more</a></li>
+                                <li className="fw-bolder fs-5"><a href="#"className='color-ff' >Read more</a></li>
                                 <br />
                                 <li className="svg-icon2">
-                                    <a >
+                                    <a href="#">
                                         <i className="fa-br/ands fa-facebook">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="1.3rem"
                                                 viewBox="0 0 512 512">
@@ -65,7 +65,7 @@ export default function Footer() {
                                             </svg>
                                         </i>
                                     </a>
-                                    <a >
+                                    <a href="#">
                                         <i className="fa-br/ands fa-linkedin-in">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="1.3rem"
                                                 viewBox="0 0 448 512">
@@ -74,7 +74,7 @@ export default function Footer() {
                                             </svg>
                                         </i>
                                     </a>
-                                    <a >
+                                    <a href="#">
                                         <i className="fa-br/ands fa-instagram">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="1.3rem"
                                                 viewBox="0 0 448 512">
@@ -83,7 +83,7 @@ export default function Footer() {
                                             </svg>
                                         </i>
                                     </a>
-                                    <a >
+                                    <a href="#">
                                         <i className="fa-br/ands fa-twitter">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="1.3rem"
                                                 viewBox="0 0 512 512">
@@ -92,7 +92,7 @@ export default function Footer() {
                                             </svg>
                                         </i>
                                     </a>
-                                    <a >
+                                    <a href="#">
                                         <i className="fa-br/ands fa-pinterest">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="1.3rem"
                                                 viewBox="0 0 496 512">
@@ -101,7 +101,7 @@ export default function Footer() {
                                             </svg>
                                         </i>
                                     </a>
-                                    <a >
+                                    <a href="#">
                                         <i className="fa-br/ands fa-tumblr">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="1rem"
                                                 viewBox="0 0 320 512">
@@ -110,7 +110,7 @@ export default function Footer() {
                                             </svg>
                                         </i>
                                     </a>
-                                    <a >
+                                    <a href="#">
                                         <i className="fa-br/ands fa-square-reddit">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="1.3rem"
                                                 viewBox="0 0 448 512">
@@ -119,7 +119,7 @@ export default function Footer() {
                                             </svg>
                                         </i>
                                     </a>
-                                    <a >
+                                    <a href="#">
                                         <i className="fa-br/ands fa-youtube">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="1.3rem"
                                                 viewBox="0 0 576 512">
@@ -141,7 +141,7 @@ export default function Footer() {
                     <div className="col-lg-4 col-md-6 col-sm-12 col-12"></div>
                     <div className="col-lg-4 col-md-6 col-sm-12 col-12 svg-icon">
                         <span className="text-light fw-bold">Secure & Safe Payments: </span>
-                        <a >
+                        <a href="#">
                             <i className="fa-br/ands fa-cc-mastercard">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="2rem"
                                     viewBox="0 0 576 512">
@@ -150,7 +150,7 @@ export default function Footer() {
                                 </svg>
                             </i>
                         </a>
-                        <a >
+                        <a href="#">
                             <i className="fa-br/ands fa-cc-visa">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="2rem"
                                     viewBox="0 0 576 512">
@@ -159,7 +159,7 @@ export default function Footer() {
                                 </svg>
                             </i>
                         </a>
-                        <a >
+                        <a href="#">
                             <i className="fa-br/ands fa-cc-visa">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="2rem"
                                     viewBox="0 0 576 512">
@@ -168,7 +168,7 @@ export default function Footer() {
                                 </svg>
                             </i>
                         </a>
-                        <a >
+                        <a href="#">
                             <i className="fa-br/ands fa-cc-paypal">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="2rem"
                                     viewBox="0 0 576 512">
