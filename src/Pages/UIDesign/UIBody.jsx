@@ -7,6 +7,7 @@ import Footer from '../../Components/Footer';
 import SideBar from '../../Components/SideBar';
 import Content from '../../Components/Content';
 import CardProduct2 from '../../Components/Cardproduct2';
+import { Link } from 'react-router-dom';
 
 export default function UIBody() {
     const [CardProduct1, setCardProduct] = useState(null)
@@ -27,8 +28,8 @@ export default function UIBody() {
                 <section id="section-body container-fluid" className="mx-sm-5 mx-3">
                     <div className="dir-menu">
                         <h1 className="display-4 fw-bolder mb-4">UI Design</h1>
-                        <a className="me-1" href="/">Home</a> /
-                        <a className="ms-1 text-dark" href="/design">UI Design</a>
+                        <Link className="me-1" to="/">Home</Link> /
+                        <Link className="ms-1 text-dark" to="/design">UI Design</Link>
                     </div>
                     <br /><br /><br /><br />
                     <section className="row">

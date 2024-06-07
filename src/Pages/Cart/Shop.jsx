@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Header from '../../Components/Header/Header'
-import {  useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useAuthDispatch, useAuthState } from '../../Context/auth-context'
 import axios from 'axios'
 import Footer from '../../Components/Footer'
@@ -24,6 +24,7 @@ export default function Shop() {
     }
 
     useEffect(() => {
+        window.scrollTo(0, 0)
         if (id > 0) {
             axios.get(`https://my-json-server.typicode.com/mohammadbarri/adveits-db/card/${id}`).then(res => setData(res.data))
         }
@@ -32,7 +33,7 @@ export default function Shop() {
 
     const card1 = data ? <>
         <ShopCard id={id} smtext={data.smtext} largeText={data.largeText} text={data.text} img={data.img} />
-        <a onClick={handleBuy} className="btn text-light border-0 bg-dark px-3 p-3" href="/template">Buy it </a>
+        <Link onClick={handleBuy} className="btn text-light border-0 bg-dark px-3 p-3" to="/template">Buy it </Link>
     </> : null
 
 
@@ -46,8 +47,8 @@ export default function Shop() {
             <section id='sec-body' className='mx-sm-5 mx-3 my-5'>
                 <div className="dir-menu">
                     <h1 className="display-4 fw-bolder mb-4">Cart</h1>
-                    <a className="me-1" href="/">Home</a> /
-                    <a className="ms-1 text-dark" href="/cart">Cart</a>
+                    <Link className="me-1" to="/">Home</Link> /
+                    <Link className="ms-1 text-dark" to="/cart">Cart</Link>
                 </div>
 
                 <br /><br /><br />
@@ -59,7 +60,7 @@ export default function Shop() {
                             Your cart is currently empty.
                         </div>
                         <br />
-                        <a className="btn text-light border-0 bg-dark px-3 p-3" href="/template">Return to Shop</a></>
+                        <Link className="btn text-light border-0 bg-dark px-3 p-3" to="/template">Return to Shop</Link></>
                 }
             </section>
             <Footer />

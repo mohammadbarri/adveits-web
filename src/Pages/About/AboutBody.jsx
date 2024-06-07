@@ -27,8 +27,8 @@ export default function AboutBody() {
                 <section id="section-body container-fluid" className="mx-sm-5 mx-3">
                     <div className="dir-menu">
                         <h1 className="display-4 fw-bolder mb-4">About us</h1>
-                        <a className="me-1" href="/">Home</a> /
-                        <a className="ms-1 text-dark" href="/about">About us</a>
+                        <Link className="me-1" to="/">Home</Link> /
+                        <Link className="ms-1 text-dark" to="/about">About us</Link>
                     </div>
                     <br /><br /><br /><br />
                     <section className="col-lg-8 col-md-12 col-sm-12 col-12">
@@ -95,7 +95,7 @@ export default function AboutBody() {
                 <section className="py-5 my-5 text-center">
                     <h1 className="fw-bold mx-3">Take A Look and Start Creating Your Project Now!</h1>
                     <br />
-                    <a className="btn text-light border-0 bg-khas px-3 p-3" href="/theme">Check our Items</a>
+                    <Link className="btn text-light border-0 bg-khas px-3 p-3" to="/theme">Check our Items</Link>
                 </section>
                 <Footer />
             </> : <Spinner />}

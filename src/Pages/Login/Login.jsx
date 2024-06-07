@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Footer'
 import Register from './Register'
+import { Link } from 'react-router-dom'
 
 export default function Login() {
     const [formField, setFormField] = useState({
@@ -16,6 +17,9 @@ export default function Login() {
         window.location.reload()
 
     }
+    useEffect(() => {
+        window.scrollTo(0,0)
+    },[])
     return (
         <>
             <Header acount={'color-spe'} />
@@ -37,8 +41,8 @@ export default function Login() {
                 <section id='sec-body' className='mx-sm-5 mx-3 my-5'>
                     <div className="dir-menu">
                         <h1 className="display-4 fw-bolder mb-4">My Acount</h1>
-                        <a className="me-1" href="/">Home</a> /
-                        <a className="ms-1 text-dark" href="/my-acount">My Acount</a>
+                        <Link className="me-1" to="/">Home</Link> /
+                        <Link className="ms-1 text-dark" to="/my-acount">My Acount</Link>
                     </div>
                     <br /><br />
                     <div className='row mt-5'>

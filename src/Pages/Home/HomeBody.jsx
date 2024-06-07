@@ -9,6 +9,7 @@ import axios from 'axios'
 import Spinner from '../../Components/Spinner'
 import News from './News'
 import Slide from './SlideComment/Slide'
+import { Link } from 'react-router-dom'
 
 export default function HomeBody() {
     const [CardProduct1, setCardProduct] = useState(null)
@@ -44,7 +45,7 @@ export default function HomeBody() {
                     <section className="mx-sm-5 mx-3">
                         <h1 className="fw-bolder">New Releases</h1>
                         <p>Themes, Templates, Wireframes, Design, Plugins.</p>
-                        <p className="text-end fw-bolder mt-5"><a href="/theme" className="text-link">View all</a></p>
+                        <p className="text-end fw-bolder mt-5"><Link to="/theme" className="text-link">View all</Link></p>
                         <br />
                         <div className="row mb-5 mt-1">
                             {card1}
