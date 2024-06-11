@@ -6,7 +6,7 @@ export default function BannerHome() {
         <section className="mt-4 mx-5">
             <div className="row">
                 <div className="col-lg-7 col-md-12 col-sm-12 col-12 m-auto">
-                    <p className="text-secondary">Welcome href Adveits Store</p>
+                    <p className="text-secondary">Welcome to Adveits Store</p>
                     <h1 className="display-4 fw-bold">Create Your Premium Site In Fast, Modern <span className='color-spe'
                     >and</span> Easy Way.</h1>
                     <div className="mt-5">

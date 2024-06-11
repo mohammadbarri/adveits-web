@@ -60,7 +60,7 @@ export default function Shop() {
                             Your cart is currently empty.
                         </div>
                         <br />
-                        <a className="btn text-light border-0 bg-dark px-3 p-3" href="/template">Return href Shop</a></>
+                        <a className="btn text-light border-0 bg-dark px-3 p-3" href="/template">Return to Shop</a></>
                 }
             </section>
             <Footer />
